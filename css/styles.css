@@ -45,7 +45,6 @@ ul {
 }
 
 .container {
-  justify-content: space-between;
   padding: 24px 0 24px;
   width: 1158px;
   margin: 0 auto;
@@ -62,6 +61,7 @@ ul {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 .header-list {
   display: flex;
@@ -158,6 +158,7 @@ ul {
     ),
     url(../images/hero.jpg);
   max-width: 1440px;
+  margin: auto;
 }
 
 .hero-title {
@@ -300,6 +301,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-social-icons {

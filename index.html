@@ -441,7 +441,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-head-social">Social media</p>
+          <p class="footer-head">Social media</p>
           <ul class="footer-list-social">
             <li class="footer-li-social">
               <a href="" class="footer-link-social">
@@ -474,14 +474,22 @@
           </ul>
         </div>
         <div class="subscribe">
-          <p class="head-subscribe">Subscribe</p>
-          <input type="email" name="user-email" placeholder="E-mail" />
-        </div>
-        <div class="button-footer">
-          <button type="submit" class="button-subscribe">
-            Subscribe
-            <svg width="24" height="24" class="footer-icon"></svg>
-          </button>
+          <p class="footer-head">Subscribe</p>
+          <form class="subscribe-form" name="subscribe-form" autocomplete="on">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="user-mail"
+              placeholder="E-mail"
+            />
+
+            <button class="buttom-subscribe button" type="submit">
+              Підписатися
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

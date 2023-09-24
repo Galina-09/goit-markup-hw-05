@@ -492,3 +492,58 @@ ul {
 .footer-icon {
   fill: var(--c-background-secondary);
 }
+
+.subscribe {
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+}
+.subscribe-form {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-label {
+}
+.subscribe-input {
+  display: block;
+  width: 264px;
+  height: 40px;
+  color: #ffffff;
+  margin-right: 12px;
+  padding-left: 16px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+.buttom-subscribe {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  height: 40px;
+  padding: 10px 28px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-icon {
+  top: 25%;
+  margin-left: 16px;
+  fill: var(--color-white);
+}

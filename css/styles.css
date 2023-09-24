@@ -708,12 +708,11 @@ input::placeholder {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + span {
-  background-color: var(--c-hover);
+.input-checkbox:checked + .label-privacy .privacy {
+  background-color: var(--pressed-state);
+  fill: var(--light);
   border: none;
-  fill: var(--c-background-secondary);
 }
-
 .link-privacy {
   color: var(--c-brand);
 }

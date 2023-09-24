@@ -532,6 +532,7 @@ input::placeholder {
   min-width: 165px;
   height: 40px;
   padding: 10px 28px;
+  text-align: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;

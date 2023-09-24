@@ -604,9 +604,13 @@ input::placeholder {
   background-color: var(--c-hover);
   border: none;
 }
-
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover + .modal-close-icon,
+.modal-close:focus + .modal-close-icon {
+  fill: #ffffff;
 }
 
 .modal-text {
@@ -709,8 +713,8 @@ input::placeholder {
 }
 
 .input-checkbox:checked + .label-privacy .privacy {
-  background-color: var(--pressed-state);
-  fill: var(--light);
+  background-color: var(--c-hover);
+  fill: var(--c-background-secondary);
   border: none;
 }
 .link-privacy {

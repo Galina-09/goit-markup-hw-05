@@ -492,7 +492,6 @@ ul {
 .footer-icon {
   fill: var(--c-background-secondary);
 }
-
 .subscribe {
   width: 570px;
   height: 86px;
@@ -504,8 +503,6 @@ ul {
   align-items: center;
 }
 
-.footer-label {
-}
 .subscribe-input {
   display: block;
   width: 264px;

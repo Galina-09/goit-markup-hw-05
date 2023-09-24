@@ -4,6 +4,7 @@
   --c-background-secondary: #f4f4fd;
   --c-text: #434455;
   --c-hover: #404bbf;
+  --c-label-form: #8e8f99;
 }
 
 body {
@@ -528,7 +529,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 1665px;
+  min-width: 165px;
   height: 40px;
   padding: 10px 28px;
   font-weight: 500;
@@ -559,11 +560,11 @@ input::placeholder {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
+/*.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+}*/
 
 .modal {
   position: absolute;
@@ -572,7 +573,7 @@ input::placeholder {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
-  min-height: 584px;
+  background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -616,4 +617,63 @@ input::placeholder {
   letter-spacing: 0.02em;
   color: var(--c-background-hero);
   margin-bottom: 16px;
+}
+
+.modal-field {
+  margin-bottom: 8px;
+}
+
+.modal-head-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--c-label-form);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.modal-input-wrap {
+  position: relative;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  border-color: #4d5ae5;
 }

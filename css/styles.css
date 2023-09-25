@@ -727,8 +727,8 @@ input::placeholder {
 
 .modal-checkbox-input:checked + .modal-checkbox-text .modal-checkbox-check {
   background-color: #404bbf;
-  border: none;
   fill: #f4f4fd;
+  border: none;
 }
 
 .modal-checkbox-text {

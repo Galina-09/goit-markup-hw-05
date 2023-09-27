@@ -737,6 +737,9 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+.checkbox-link {
+  color: var(--c-brand);
+}
 
 .modal-send {
   display: block;
